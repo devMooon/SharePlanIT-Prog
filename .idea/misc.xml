@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/layout/fragment_dashboard.xml" value="0.1816123188405797" />
+        <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/layout/fragment_my_page.xml" value="0.33695652173913043" />
+        <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/layout/fragment_my_plan.xml" value="0.20244565217391305" />
+        <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/layout/fragment_quest.xml" value="0.20244565217391305" />
+        <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/layout/fragment_statistics.xml" value="0.20244565217391305" />
+        <entry key="..\:/data/github/repository/SharePlanIT-Prog/Prog/app/src/main/res/menu/bottom_nav_menu.xml" value="0.359375" />
       </map>
     </option>
   </component>

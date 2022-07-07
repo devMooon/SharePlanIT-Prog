@@ -3,23 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_myPlan">
+
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.prog.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_statistics"
+        android:name="com.example.prog.ui.statistics.statisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.prog.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_myPlan"
+        android:name="com.example.prog.ui.myPlan.myPlanFragment"
+        android:label="@string/title_myPlan"
+        tools:layout="@layout/fragment_my_plan" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.prog.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_quest"
+        android:name="com.example.prog.ui.quest.questFragment"
+        android:label="@string/title_quest"
+        tools:layout="@layout/fragment_quest" />
+
+    <fragment
+        android:id="@+id/navigation_myPage"
+        android:name="com.example.prog.ui.myPage.myPageFragment"
+        android:label="@string/title_myPage"
+        tools:layout="@layout/fragment_my_page" />
 </navigation>
